@@ -6,4 +6,11 @@ git commit -m "commit message" (commit the changes to the local repository)
 
 git push origin main (push the changes to the remote repository)
 
+git checkout -b new-branch-name (create a new branch)
+
+git branch (list all the branches)
+
+git checkout main (switch to the main branch)
+
+
 
