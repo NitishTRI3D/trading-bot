@@ -1,0 +1,13 @@
+AWS t3.micro server , create a new key pair and download the pem file
+ssh -i gaji.pem ubuntu@13.201.194.92 (remember the IP Address keeps changing)
+
+Added this in VS Code (Cursor)
+
+ssh-keygen -t rsa -b 4096 (added the public key in github)
+git clone git@github.com:NitishTRI3D/trading-bot.git
+
+cd trading-bot
+
+
+
+
