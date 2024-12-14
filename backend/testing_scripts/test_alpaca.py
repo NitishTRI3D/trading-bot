@@ -17,7 +17,7 @@ trading_client = TradingClient(
 market_order_data = MarketOrderRequest(
                     symbol="BTC/USD",
                     # amount=2500,
-                    qty=0.05,
+                    qty=0.0001,
                     side=OrderSide.BUY,
                     time_in_force=TimeInForce.GTC
                     )
