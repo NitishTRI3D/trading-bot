@@ -1,5 +1,6 @@
 <details>
 <summary>20241214</summary>
+
 ## TODOS
 - Script to execute trades continuously 
 - Dashboard that is showing my execution performance 
