@@ -1,0 +1,10 @@
+tmux new -s run 
+tmux a -t run 
+
+Ctrl + b + c -> Create new window
+Ctrl + b + d -> Detach window
+Ctrl + b + [ -> Scroll up
+Ctrl + b + ] -> Scroll down
+Ctrl + b + pane number -> Switch to pane number
+
+tmux ls -> List all sessions
