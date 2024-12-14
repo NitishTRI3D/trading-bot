@@ -2,6 +2,7 @@ import time
 from datetime import datetime
 import subprocess
 import os
+import sys
 
 def run_algorithm():
     try:
@@ -10,8 +11,9 @@ def run_algorithm():
         # Construct the path to algorithm_simple.py
         algorithm_path = os.path.join(current_dir, 'algorithms', 'algorithm_simple.py')
         print(algorithm_path)
-        # Run the algorithm
-        subprocess.run(['python', algorithm_path], check=True)
+        print(sys.executable)
+        # Use sys.executable to get the path of the current Python interpreter
+        subprocess.run([sys.executable, algorithm_path], check=True)
         print(f"Algorithm executed successfully at {datetime.now()}")
     except subprocess.CalledProcessError as e:
         print(f"Error running algorithm: {e}")
