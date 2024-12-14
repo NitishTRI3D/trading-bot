@@ -2,14 +2,16 @@
 <summary>20241214</summary>
 
 ## TODOS
-- Script to execute trades continuously 
-- Dashboard that is showing my execution performance 
+- Set on TejDeep's system
+- Looking at BTC History Data and trying to predict the future, regression
+- ~~Script to execute trades continuously ~~
+- ~~Dashboard that is showing my execution performance ~~
 
 ## LATER
 - How do I improve algorithm? Collecting Data 
   - Scraping data from resources 
   - Paid accounts which will give me data - API  
-  - - Get Demat Account and execute real trades with 1000Rs 
+  - Get Demat Account and execute real trades with 1000Rs 
 </details>
 
 
