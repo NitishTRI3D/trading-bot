@@ -11,3 +11,6 @@ cd trading-bot
 
 
 
+
+
+
