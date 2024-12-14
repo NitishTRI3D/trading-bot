@@ -1,0 +1,9 @@
+git status (which branch you are on)
+
+git add . (add all the files to the staging area)
+
+git commit -m "commit message" (commit the changes to the local repository)
+
+git push origin main (push the changes to the remote repository)
+
+
