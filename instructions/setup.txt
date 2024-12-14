@@ -16,7 +16,7 @@ sudo apt install python3-venv
 
 cd backend
 python3 -m venv venv 
-source venv/bin/activate
+source venv/bin/activate  // .\venv\Scripts\activate 
 pip install -r requirements.txt
 create .env file in backend folder
 
